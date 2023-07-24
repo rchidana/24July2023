@@ -33,7 +33,7 @@ sudo systemctl start docker
 
 ### Add ubuntu user rps to docker user group
 ```
-sudo usermod -aG docker rps
+sudo usermod -aG docker ubuntu (username)
 ```
 
 ### Open a new Terminal (duplicate Putty session)
