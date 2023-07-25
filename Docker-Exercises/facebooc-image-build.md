@@ -7,7 +7,7 @@
 # Let us spin up an empty container (name it 'fb') that is powered by ubuntu image
 # Host Port 8085 is mapped to container port 16000 but any other available Host Port can be used 
 
-docker run –itd --name fb –p 8085:16000 ubuntu bash
+docker run -itd --name fb -p 8085:16000 ubuntu bash
 
 # Check if this container is running without any issues
 docker ps
